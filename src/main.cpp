@@ -2,7 +2,7 @@
 
 #include "prod_con.h"
 
-void main() {
+int main() {
     std::thread prod1(produce);
     std::thread con1(consume);
 
